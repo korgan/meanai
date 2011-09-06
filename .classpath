@@ -6,5 +6,9 @@
 	<classpathentry kind="lib" path="C:/Dokumente und Einstellungen/Alex/Desktop/spring-0.82.7.1/AI/Interfaces/Java/0.1/AIInterface.jar"/>
 	<classpathentry kind="lib" path="C:/Dokumente und Einstellungen/Alex/Desktop/spring-0.82.7.1/AI/Interfaces/Java/0.1/jlib/jna.jar"/>
 	<classpathentry kind="lib" path="C:/Dokumente und Einstellungen/Alex/Desktop/spring-0.82.7.1/AI/Interfaces/Java/0.1/jlib/vecmath.jar"/>
+	<classpathentry kind="lib" path="C:/games/Spring/AI/Interfaces/Java/0.1/jlib/jna.jar"/>
+	<classpathentry kind="lib" path="C:/games/Spring/AI/Interfaces/Java/0.1/jlib/vecmath.jar"/>
+	<classpathentry kind="lib" path="C:/games/Spring/AI/Interfaces/Java/0.1/AIInterface.jar"/>
+	<classpathentry kind="lib" path="C:/games/Spring/AI/Interfaces/Java/0.1/AIInterface-src.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

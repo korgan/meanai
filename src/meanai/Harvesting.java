@@ -22,6 +22,10 @@ public class Harvesting
 	List<AIFloat3> _metalSpots;
 	float _harvesterRadius;
 	
+	/**
+	 * 
+	 * @param core
+	 */
 	Harvesting(MeanAI core)
 	{
 		_core = core;
@@ -34,6 +38,11 @@ public class Harvesting
 		_harvesterRadius = _core.getCallBack().getMap().getExtractorRadius(_resourceMetal);
 	}
 	
+	/**
+	 * 
+	 * @param unit
+	 * @return
+	 */
 	public int useUnit(Unit unit)
 	{
 		if (unit.getDef().getName().equals("armcom"))
@@ -43,6 +52,10 @@ public class Harvesting
 		return 0;
 	}
 	
+	/**
+	 * 
+	 * @return
+	 */
 	public int getPriority()
 	{
 		int count = Math.min(_metal.size(), _energy.size());
@@ -56,6 +69,10 @@ public class Harvesting
 		}
 	}
 	
+	/**
+	 * 
+	 * @param unit
+	 */
 	protected void buildNextUnit(Unit unit) 
 	{
 		if (_metal.size() < _energy.size())
@@ -80,9 +97,22 @@ public class Harvesting
 		}
 	}
 	
+	/**
+	 * 
+	 * @param unit
+	 */
 	public void addMetal(Unit unit) { _metal.add(unit); }
+	/**
+	 * 
+	 * @param unit
+	 */
 	public void addEnergy(Unit unit) { _energy.add(unit); }
 	
+	/**
+	 * 
+	 * @param position
+	 * @return
+	 */
 	protected AIFloat3 closestMetalSpot(AIFloat3 position)
 	{
 		AIFloat3 finalSpot = null;
