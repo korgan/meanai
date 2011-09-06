@@ -23,7 +23,7 @@ public class Harvesting
 	float _harvesterRadius;
 	
 	/**
-	 * 
+	 *  Initializes all variables.
 	 * @param core
 	 */
 	Harvesting(MeanAI core)
